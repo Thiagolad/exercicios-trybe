@@ -1,15 +1,10 @@
-let grade = 2000;
-if (grade > 100 || grade < 0){
-    console.log('nota invalida')
-}else if (grade >= 90){
-   console.log('A')
-}else if (grade >= 80){
-   console.log('B')
-}else if (grade >= 70){
-   console.log('C')
-}else if (grade >= 60){
-   console.log('D')
-}else if (grade >= 50){
-   console.log('E')
-}else
-console.log('F')
+const val1 = 1;
+const val2 = 2;
+const val3 = 3;
+
+let par = true;
+
+if ((val1 || val2 || val3 ) % 2 ===0 ){
+   isEven = true;
+};
+console.log(isEven);

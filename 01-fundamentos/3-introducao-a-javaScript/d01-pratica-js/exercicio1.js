@@ -92,4 +92,28 @@ switch(chess.toLowerCase){
  }else{
     console.log('F')
 }
+//exercicio-8
+const val1 = 1;
+const val2 = 2;
+const val3 = 3;
 
+let even = ;
+
+if (val1 % 2 == 0|| val2 % 2 == 0 || val3 % 2 == 0) {
+    even = true;
+}else{
+    even = false;
+}
+//exercicio-9
+
+const val4 = 4;
+const val5 = 5;
+const val6 = 6;
+
+let odd = ;
+
+if (val4 % 2 !== 0 || val5 % 2 !== 0 || val6 % 2 !== 0){
+    odd = true;
+}else{
+    odd = false;
+}
